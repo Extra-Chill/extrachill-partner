@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Extra Chill Partner
+ * Plugin URI: https://github.com/Extra-Chill/extrachill-partner
  * Description: Server-rendered venue events and hosted booking for partner websites.
  * Version: 0.1.0
  * Requires at least: 6.5
