@@ -28,7 +28,9 @@
         "phpunit.xml.dist",
         "README.md",
         "docs/**",
-        ".github/**"
+        ".github/**",
+        "homeboy.json",
+        "vendor/**"
       ]
     }
   }
