@@ -1,6 +1,7 @@
 {
   "id": "extrachill-partner",
   "auto_cleanup": false,
+  "changelog_target": "docs/CHANGELOG.md",
   "extensions": {
     "wordpress": {
       "settings": {
@@ -17,5 +18,18 @@
       "file": "readme.txt",
       "pattern": "(?m)^Stable tag:\\s*([0-9.]+)"
     }
-  ]
+  ],
+  "scopes": {
+    "package": {
+      "exclude": [
+        "tests/**",
+        "composer.json",
+        "composer.lock",
+        "phpunit.xml.dist",
+        "README.md",
+        "docs/**",
+        ".github/**"
+      ]
+    }
+  }
 }
