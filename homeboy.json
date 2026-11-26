@@ -5,7 +5,13 @@
   "extensions": {
     "wordpress": {
       "settings": {
-        "wordpress_runtime_php_version": "8.4"
+        "wordpress_runtime_php_version": "8.4",
+        "package_excludes": [
+          "/homeboy.json",
+          "/composer.json",
+          "/vendor",
+          "/docs"
+        ]
       }
     }
   },
@@ -29,8 +35,7 @@
         "README.md",
         "docs/**",
         ".github/**",
-        "homeboy.json",
-        "vendor/**"
+        "homeboy.json"
       ]
     }
   }
